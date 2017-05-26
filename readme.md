@@ -3,19 +3,8 @@
 实现完全模块化开发的 laravel 项目结构, 支持模块的运行与测试
 
 安装方式:
-1. 通过 安装工具安装
 ```
-// 安装全局依赖
-composer global require "ckryo/ckryo_laravel"
-
-// 新建项目
-ckryo_laravel new blog
-```
-
-2. 通过composer 创建 
-
-```
-composer create-project --prefer-dist ckryo/ckryo_laravel blog
+composer create-project --prefer-dist ckryo/laravel blog
 ```
 
 ## About Laravel
