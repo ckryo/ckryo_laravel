@@ -1,11 +1,17 @@
 <?php
 
-namespace App\;
+namespace App;
 
+use Ckryo\Laravel\App\Providers\RouteServiceExtension;
+use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
+
+    use RouteServiceExtension;
+
+    protected $namespace = 'App\Controllers';
     /**
      * Bootstrap any application services.
      *
@@ -13,7 +19,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->initialRoute();
     }
 
     /**
@@ -24,5 +30,12 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         //
+    }
+
+    function mapRoutes (Router $router)
+    {
+        $router->get('/', function () {
+            dd('hello word');
+        });
     }
 }
