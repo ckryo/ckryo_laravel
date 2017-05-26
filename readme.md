@@ -6,7 +6,7 @@
 1. 通过 安装工具安装
 ```
 // 安装全局依赖
-composer global require "ckryo/laravel_installer"
+composer global require "ckryo/ckryo_laravel"
 
 // 新建项目
 ckryo_laravel new blog
@@ -15,7 +15,7 @@ ckryo_laravel new blog
 2. 通过composer 创建 
 
 ```
-composer create-project --prefer-dist ckryo/laravel_installer blog
+composer create-project --prefer-dist ckryo/ckryo_laravel blog
 ```
 
 ## About Laravel
