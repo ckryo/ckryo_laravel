@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a6c34def071b0b0d01b81b818f46f041",
+    "hash": "f5cc8249276a8e357c5a0b95a5f6e325",
     "content-hash": "93378185665023c5b400ad7306ff856d",
     "packages": [
         {
             "name": "ckryo/laravel_app",
-            "version": "5.4.5",
+            "version": "5.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ckryo/laravel_app.git",
-                "reference": "897b26feca6fe5d67a0c60934115d5000670632c"
+                "reference": "004f7271c534fb3428c2d432691e19a5e2333b34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ckryo/laravel_app/zipball/897b26feca6fe5d67a0c60934115d5000670632c",
-                "reference": "897b26feca6fe5d67a0c60934115d5000670632c",
+                "url": "https://api.github.com/repos/ckryo/laravel_app/zipball/004f7271c534fb3428c2d432691e19a5e2333b34",
+                "reference": "004f7271c534fb3428c2d432691e19a5e2333b34",
                 "shasum": ""
             },
             "require": {
@@ -37,10 +37,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/ckryo/laravel_app/tree/5.4.5",
+                "source": "https://github.com/ckryo/laravel_app/tree/5.4.11",
                 "issues": "https://github.com/ckryo/laravel_app/issues"
             },
-            "time": "2017-05-26 03:54:06"
+            "time": "2017-05-26 06:13:57"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",

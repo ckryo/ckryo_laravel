@@ -1,11 +1,22 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# ckryo_laravel
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+实现完全模块化开发的 laravel 项目结构, 支持模块的运行与测试
+
+安装方式:
+1. 通过 安装工具安装
+```
+// 安装全局依赖
+composer global require "ckryo/laravel_installer"
+
+// 新建项目
+ckryo_laravel new blog
+```
+
+2. 通过composer 创建 
+
+```
+composer create-project --prefer-dist ckryo/laravel_installer blog
+```
 
 ## About Laravel
 

@@ -1,9 +1,15 @@
 {
-    "name": "ckryo/laravel_installer",
+    "name": "ckryo/ckryo_laravel",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:ckryo/laravel_app.git"
+        }
+    ],
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.4.*",
