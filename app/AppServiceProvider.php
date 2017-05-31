@@ -34,8 +34,6 @@ class AppServiceProvider extends ServiceProvider
 
     function mapRoutes (Router $router)
     {
-        $router->get('/', function () {
-            dd('hello word');
-        });
+        $router->resource('/', 'Controller');
     }
 }
